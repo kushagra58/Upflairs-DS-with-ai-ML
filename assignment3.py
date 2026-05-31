@@ -40,7 +40,7 @@ def find_max(*numbers):
             largest = num
     return largest
 
-result = find_max(10, 45, 23, 67, 12)
+result = find_max(10, 45, 23, 67, 12,87)
 print("Largest number:", result)
 
 # Question:- 4
@@ -50,8 +50,8 @@ def student_details(**data):
         print(f"{key}: {value}")
 
 student_details(
-    Name="Rahul",
-    Age=21,
+    Name="Kushagra",
+    Age=2,
     Course="Python",
     City="Jaipur"
 )
@@ -70,7 +70,7 @@ print(fib_list)
 
 # Question:- 6
 
-numbers = [5, 12, 17, 18, 24, 32]
+numbers = [5, 12, 17, 18, 24, 15,120]
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 squares = list(map(lambda x: x ** 2, even_numbers))
 
